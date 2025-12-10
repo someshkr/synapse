@@ -37,6 +37,8 @@ Think of it as the intelligent middleware that makes your forecasting infrastruc
 
 **Time Series Anomaly Detection** - Identify unusual patterns in metrics, detect system failures, or flag fraudulent activity automatically.
 
+** Causal Inference ** - Identify the whys
+
 ## 🏗️ Architecture
 
 Synapse operates on three core principles:
@@ -54,25 +56,16 @@ Synapse eliminates this complexity by providing a unified interface that handles
 
 ## 🔌 Integrations
 
-- **Data Sources**: PostgreSQL, MySQL, Snowflake, BigQuery, S3, Azure Blob, REST APIs
-- **ML Frameworks**: scikit-learn, Prophet, statsmodels, XGBoost, LightGBM, PyTorch, TensorFlow
-- **Deployment**: REST API, S3, Snowflake, Redshift, Kafka, custom webhooks
-- **Monitoring**: Prometheus, Grafana, Datadog, CloudWatch
+- **Data Sources**: File I/O
+- **ML Frameworks**: Orbit, Prpohet, statsmodels, Pygam (comming soon for XGBoost, LightGBM, PyTorch, TensorFlow)
 
-## 📈 Performance
-
-Synapse is built for scale. Handle millions of time series with distributed training, efficient batch processing, and intelligent caching.
-
-- Process 1M+ time series in parallel
-- Train and deploy models in minutes, not hours
-- Sub-second inference latency for real-time forecasts
 
 ## 🛠️ Advanced Features
 
 - **A/B Testing** - Compare model variants in production with statistical significance testing
-- **Ensemble Methods** - Automatically combine multiple models for improved accuracy
-- **Transfer Learning** - Apply learnings from one time series to bootstrap others
-- **Explainability** - Understand which features drive your forecasts with built-in SHAP integration
+- **Ensemble Methods** - Automatically combine multiple models for improved accuracy (coming soon)
+- **Transfer Learning** - Apply learnings from one time series to bootstrap others (coming soon)
+- **Explainability** - Understand which features drive your forecasts with built-in SHAP integration (coming soon)
 
 ## 📚 Documentation
 
