@@ -1,0 +1,17 @@
+# pandas
+# numpy
+# scikit-learn
+# openpyxl
+# cmdstanpy==1.3.0
+# # orbit-ml  # Install separately after running: python setup_cmdstan.py
+# pygam
+# econml
+# prophet
+langchain
+langchain-community
+langgraph
+langchain-huggingface
+transformers
+accelerate
+bitsandbytes
+torch
