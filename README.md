@@ -16,7 +16,7 @@ Think of it as the intelligent middleware that makes your forecasting infrastruc
 
 **Automatic Pipeline Orchestration** - Define your forecasting workflow once, and Synapse handles scheduling, dependency management, and execution across distributed systems.
 
-**Model Agnostic** - Works with statistical models (ARIMA, Prophet), machine learning frameworks (scikit-learn, XGBoost), and deep learning libraries (PyTorch, TensorFlow) interchangeably.
+**Model Agnostic** - Works with statistical models (, Prophet), machine learning frameworks (Orbit, Pygam) interchangeably.
 
 **Smart Data Handling** - Automatic feature engineering, missing data imputation, and anomaly detection built-in. Your data flows through preprocessing stages intelligently.
 
